@@ -1,21 +1,26 @@
 {
-  "name": "SIP Michał",
+  "name": "SIP - Nadarzyn",
   "short_name": "SIP",
+  "description": "System Informacji Pasażerskiej - Nadarzyn",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
+  "display_override": [
+    "fullscreen",
+    "standalone"
+  ],
   "orientation": "portrait",
   "background_color": "#8f949b",
   "theme_color": "#1e3a8a",
   "icons": [
     {
-      "src": "icons/icon-192.png",
+      "src": "./icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-512.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
